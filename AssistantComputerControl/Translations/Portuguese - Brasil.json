@@ -1,10 +1,11 @@
 ﻿{
-  "language": "Portuguese - Brasil",
+  "language": "Português - Brasil",
   "version": "1.0.0", //the version of the software this translation is made for
   "translation_version": 1,
 
   //Add your name to the bottom of the contributors list if you have contributed
   "contributors": ["Alerson Jorge"], // @ajotanc
+  "contributors": ["Goulart Junior"], // @goulartjnr
 
   "translations": {
     "general": {
@@ -12,8 +13,8 @@
       "invalid_path": "Caminho não encontrado",
       "no_cloudservice_chosen": "Parece que você não escolheu um serviço de nuvem. Deseja seguir o guia de configuração novamente?",
       "cloud_setup_failed": "Falha ao definir o serviço em nuvem - tente novamente.",
-      "start_with_pc_yes": "Boa escolha! O ACC começará agora com o Windows",
-      "start_with_pc_no": "Tudo bem. Se você se arrepende e deseja que o ACC seja aberto automaticamente, clique sempre com o botão direito do mouse em AssistantComputerControl na bandeja e clique em \"Abrir na inicialização\"!",
+      "start_with_pc_yes": "Boa escolha! O ACC, agora, iniciará com o Windows",
+      "start_with_pc_no": "Tudo bem. Se você arrependeu-se e deseja que o ACC seja aberto automaticamente, clique com o botão direito do mouse em AssistantComputerControl na barra de tarefas e clique em \"Abrir na inicialização\"!",
       "start_with_pc_desc": "Deseja que este software seja aberto automaticamente quando o Windows iniciar (recomendado)? Clique \"Sim\""
     },
     "settings": {
@@ -28,8 +29,8 @@
       "program_language_label": "Idioma do programa",
       "save_language_btn": "Salvar",
       "start_with_windows": "Iniciar com o Windows?",
-      "check_for_updates": "Verifique se há atualizações?",
-      "join_beta_program": "Participe do programa beta?",
+      "check_for_updates": "Verificar se há atualizações?",
+      "join_beta_program": "Participar do programa beta?",
 
       "file_edited_margin": "Margem editada pelo arquivo (segundos)",
       "file_read_delay": "Atraso na leitura do arquivo (segundos)",
@@ -56,7 +57,7 @@
       "window_name": "Configurações avançadas",
       "title": "Configurações avançadas",
       "description": "A alteração dessas configurações alterará a maneira como o \nAssistantComputerControl funciona completamente. É apenas para aqueles que não desejam usar a compilação nos serviços em nuvem que o ACC suporta atualmente.",
-      "why_edit_link": "Devo editar isso...?",
+      "why_edit_link": "Devo editar isso?",
       "action_path_label": "Caminho da pasta de ação",
       "save_button": "Salvar pasta de ação",
       "action_file_extension_label": "Extensão do arquivo de ação"
@@ -72,7 +73,7 @@
       "webservers_offline": "Não foi possível acessar os servidores da web ACC - tente novamente mais tarde"
     },
     "update_downloading": {
-      /* Needs testing */ "title": "Downloading new update...",
+      /* Needs testing */ "title": "Baixando atualização...",
       "description": "Você pode fechar esta janela - o instalador abrirá quando terminar o download",
       "downloaded_bytes": "Baixado {x} de {y}"
     },
@@ -136,8 +137,8 @@
       "open_installer_dropbox": "Abra o instalador e instale o Dropbox no seu computador",
 
       /* OneDrive specific */
-      "personal_onedrive": "Personal OneDrive",
-      "work_onedrive": "Work OneDrive",
+      "personal_onedrive": "OneDrive Pessoal",
+      "work_onedrive": "OneDrive Profissional",
       "onedrive_sign_up": "Inscreva-se no OneDrive (o mesmo que uma conta da Microsoft)",
       "download_onedrive": "Se você estiver usando o Windows 8 ou superior, provavelmente já terá o OneDrive no seu computador. Caso contrário, <a href=\"https://onedrive.live.com/about/en-sg/download/\"> faça o download e execute o instalador do OneDrive</a>",
       "onedrive_go_to_folder": "Vá para a pasta OneDrive no gerenciador de arquivos",
@@ -165,7 +166,7 @@
       "set_up_ifttt_acc": "Configure sua conta IFTTT",
       "set_up_ifttt_extra": "Com os applets AssistantComputerControl",
       "ifttt_join": "Inscreva-se no IFTTT",
-      "ifttt_join_extra": "(é recomendado se inscrever com sua conta do Google se você estiver usando o Google Assistant)",
+      "ifttt_join_extra": "(é recomendado inscrever-se com sua conta do Google se você estiver usando o Google Assistant)",
       "ifttt_enable_shutdown_applet": "<b>Ative os applets que você deseja. </b> Vamos começar com a ação <code>shutdown</code> <small>(que desliga o computador)</small>.",
       "shutdown_test_link_gh": "Clique aqui se você estiver usando o Google Assistant",
       "ifttt_shutdown_link_alexa": "ou aqui se você usa o Amazon Alexa",
@@ -179,10 +180,10 @@
       "google_assistant_trigger_example": "O gatilho do <b>Google Assistant</b> seria;",
       "alexa_trigger_example": "Para <b> Alexa </b>, você precisa dizer",
       "configure_software_info": "Para configurar o software para combinar com o seu computador da melhor maneira possível, vamos tentar a ação <code>shutdown</code> 3 vezes!",
-      "wont_execute_reminder": "As ações que você tenta não serão executadas, apenas simuladas!",
+      "wont_execute_reminder": "As ações que você utilizar não serão executadas, apenas simuladas!",
       "action_went_through": "{action} passou",
 
-      "fast_learner": "Você é um aprendiz rápido!", // Shown when the user executes the first action before even going to tab 3
+      "fast_learner": "Você aprende rápido!", // Shown when the user executes the first action before even going to tab 3
       "too_fast": "Você foi rápido, mas você também foi rápido ...?", // Shown when the user is fast, but the action fails
 
       /* "Not working" modal (troubleshooting) */
@@ -226,7 +227,7 @@
       "description": "Essa configuração é para aqueles que desejam mais liberdade sobre o AssistantComputerControl.\nComo você pode (ou não) saber, o ACC usa um software em nuvem como o Dropbox para se comunicar com o IFTTT, que lida com o comando e a resposta do assistente.\nNa poadrão a configuração recomendada usa o Dropbox, OneDrive ou Google Drive. Tudo o que o ACC faz é procurar um tipo de arquivo específico em uma pasta específica. As configurações avançadas (pelas quais passaremos por aqui) permitem modificar essas duas configurações.\n Uma \"ação\" é o que queremos que o computador Faz. Digamos que digamos ao nosso assistente \"Desligue meu computador\", a ação é \"desligamento\".\nA \"Pasta de ação\" é o caminho que o ACC procura para encontrar a ação.",
       "action_folder_path": "Caminho da pasta de ação",
       "action_file_extension": "Extensão do arquivo de ação",
-      "disclaimer": "Você sempre pode editar essas configurações clicando com o botão direito do mouse no ícone ACC na barra de tarefas, clique em \"Configurações\" e depois em \"Configurações avançadas\"",
+      "disclaimer": "Você pode editar essas configurações clicando com o botão direito do mouse no ícone ACC na barra de tarefas, clique em \"Configurações\" e depois em \"Configurações avançadas\"",
       "back_to_setup": "Voltar ao guia de configuração",
       "done_button": "Feito"
     },
